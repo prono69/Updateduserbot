@@ -17,11 +17,11 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = ("`Hello`\n\n"
-                  "`Sorry I'm not in a condition of helping anyone so it isn't worth messaging me.`\n"
-                  "`Instead, go to Google or` @CraBinz `and find solutions.`\n\n"
-                  "`Trust me you will discover more than what you think...\n`"
+                  "`Dont Message Me Again Nd Again I Don't Gonna Reply You`\n"
+                  "`You Just A Small Piece Of Mud Infront Of Me`\n\n"
+                  "`Akad Kisi Ki Ni Dekhi (Tere Jaise Jhaat Pe Baithte H)\n`"
                   "`Regards,`\n"
-                  "`Spyder :)`")
+                  "`@DarkHackerX`")
 # =================================================================
 
 
@@ -63,8 +63,8 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                        "`You were spamming my peru master's PM, which I don't like.`"
-                        " `I'mma Report Spam, now GTFO.`"
+                        "`You were spamming my God's PM, which I don't like.`"
+                        " `Nikal Lawde Pahli Fursat Me Nikal.`"
                     )
 
                     try:
