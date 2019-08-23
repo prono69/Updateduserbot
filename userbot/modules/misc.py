@@ -46,7 +46,7 @@ async def sleepybot(time):
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
     if not event.text[0].isalpha():
-        await event.edit("`Goodbye *Windows XP shutdown sound*....`")
+        await event.edit("`Goodbye *Windows XP shutdown sound¡¡[ghoor kya raha h Aaunga wpas] *....`")
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID,
@@ -66,7 +66,7 @@ async def bot_support(wannahelp):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     if not wannasee.text[0].isalpha() and wannasee.text[0] not in ("/", "#", "@", "!"):
-        await wannasee.edit("https://github.com/Spyderzz/UserBot/")
+        await wannasee.edit("https://github.com/TheDarkW3b/Updateduserbot/")
 
 CMD_HELP.update({
     'random': '.random <item1> <item2> ... <itemN>\
