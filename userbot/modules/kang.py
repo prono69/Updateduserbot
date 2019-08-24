@@ -39,10 +39,10 @@ async def kang(args):
                     emoji = message.media.document.attributes[1].alt
                     emojibypass = True
             else:
-                await args.edit("`Unsupported File!`")
+                await args.edit("`Abey! Only Photos And Stickers Can Be Kang!`")
                 return
         else:
-            await args.edit("`Reply to photo to kang it bruh`")
+            await args.edit("`Devmanush! Reply On Photo Or Sticker`")
             return
 
         if photo:
@@ -125,7 +125,7 @@ async def kang(args):
                     await bot.send_read_acknowledge(conv.chat_id)
 
             await args.edit(
-                f"Sticker Stolen, now run away and take [this](t.me/addstickers/{packname})",
+                f"Too Much Hot Yehhhh! Aww Photo Too Melted Into Sticker Take[this](t.me/addstickers/{packname})",
                 parse_mode='md'
             )
 
@@ -162,5 +162,5 @@ CMD_HELP.update({
 \nUsage: Works just like .kang but uses the emoji('s) you picked.\
 \n\n.kang [number]\
 \nUsage: Kang's the sticker/image to the specified pack but uses 🤔 as emoji.\
-\n\n\nPlease kang this. Made by @rupansh."
+\n\n\nPlease kang this. Made by @TheDarkW3b."
 })
