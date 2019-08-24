@@ -82,41 +82,68 @@ WELCOME_MUTE = sb(os.environ.get(
 
 
 
-CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
+CHROME_DRIVER = os.environ.get(
+    "CHROME_DRIVER", None
+   }
 
-GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
-} 
-
-
-
-
-
-
+GOOGLE_CHROME_BIN = os.environ.get(
+    "GOOGLE_CHROME_BIN", None
+   } 
+    
 YOUTUBE_API_KEY = os.environ.get(
+
     "YOUTUBE_API_KEY", None
+
     )
 
 SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME", None)
+
 SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS", None)
+
 SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
+
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
 # pylint: disable=invalid-name
+
 bot = TelegramClient(StringSession(STRING_SESSION), API_KEY, API_HASH)
 
 # Global Variables
+
 SNIPE_TEXT = ""
+
 COUNT_MSG = 0
+
 USERS = {}
+
 WIDE_MAP = dict((i, i + 0xFEE0) for i in range(0x21, 0x7F))
+
 WIDE_MAP[0x20] = 0x3000
+
 COUNT_PM = {}
+
 LASTMSG = {}
+
 ISAFK = False
+
 ENABLE_KILLME = True
+
 SNIPE_ID = 0
+
 MUTING_USERS = {}
+
 MUTED_USERS = {}
+
 CMD_HELP = {}
+
 AFKREASON = "no reason"
+
 DISABLE_RUN = False
+
+
+
+
+
+
+
+
