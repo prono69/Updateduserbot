@@ -18,6 +18,7 @@ from userbot.events import register
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = ("`Hello`\n\n"
                   "`Dont Message Me Again Nd Again I Don't Gonna Reply You`\n"
+                  "'You Nibba Think I will Approve U To Pm' \n"
                   "`You Just A Small Piece Of Mud Infront Of Me`\n\n"
                   "`Akad Kisi Ki Ni Dekhi (Tere Jaise Jhaat Pe Baithte H)\n`"
                   "`Regards,`\n"
