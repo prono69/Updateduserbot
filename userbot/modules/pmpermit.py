@@ -21,8 +21,8 @@ UNAPPROVED_MSG = ("`Hello`\n\n"
                   "'You Nibba Think I will Approve U To Pm' \n"
                   "`You Just A Small Piece Of Mud Infront Of Me`\n\n"
                   "`Akad Kisi Ki Ni Dekhi (Tere Jaise Jhaat Pe Baithte H)\n`"
-                  "`Regards,`\n"
-                  "`@DarkHackerX`")
+                  "`Regards My GOD,`\n"
+                  "`@TheDarkW3b`")
 # =================================================================
 
 
